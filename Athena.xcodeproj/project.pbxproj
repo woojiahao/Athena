@@ -14,6 +14,8 @@
 		241836CE293CD8F200D3C24F /* AthenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241836CD293CD8F200D3C24F /* AthenaTests.swift */; };
 		241836D8293CD8F200D3C24F /* AthenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241836D7293CD8F200D3C24F /* AthenaUITests.swift */; };
 		241836DA293CD8F200D3C24F /* AthenaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241836D9293CD8F200D3C24F /* AthenaUITestsLaunchTests.swift */; };
+		241836F1293DE3BE00D3C24F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 241836F0293DE3BE00D3C24F /* .gitignore */; };
+		241836F4293DE3F700D3C24F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 241836F3293DE3F700D3C24F /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,9 @@
 		241836D3293CD8F200D3C24F /* AthenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AthenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		241836D7293CD8F200D3C24F /* AthenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaUITests.swift; sourceTree = "<group>"; };
 		241836D9293CD8F200D3C24F /* AthenaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		241836F0293DE3BE00D3C24F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		241836F2293DE3E000D3C24F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		241836F3293DE3F700D3C24F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 		241836AF293CD8F100D3C24F = {
 			isa = PBXGroup;
 			children = (
+				241836F3293DE3F700D3C24F /* LICENSE */,
+				241836F2293DE3E000D3C24F /* README.md */,
+				241836F0293DE3BE00D3C24F /* .gitignore */,
 				241836BA293CD8F100D3C24F /* Athena */,
 				241836CC293CD8F200D3C24F /* AthenaTests */,
 				241836D6293CD8F200D3C24F /* AthenaUITests */,
@@ -234,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				241836C3293CD8F200D3C24F /* Preview Assets.xcassets in Resources */,
+				241836F1293DE3BE00D3C24F /* .gitignore in Resources */,
+				241836F4293DE3F700D3C24F /* LICENSE in Resources */,
 				241836C0293CD8F200D3C24F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
